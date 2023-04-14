@@ -1,0 +1,101 @@
+***********************day2023_01_20************************
+(845, 2048) (845, 1)
+data's shape is:  (845, 2049)
+              precision    recall  f1-score   support
+
+non-activate    0.84314   0.80374   0.82297       107
+    activate    0.68657   0.74194   0.71318        62
+
+    accuracy                        0.78107       169
+   macro avg    0.76485   0.77284   0.76807       169
+weighted avg    0.78570   0.78107   0.78269       169
+
+Confusion matrix, without normalization
+----------------------------------------------------------------------------------------------------
+      modelName             ACC       Precision          Recall        f1_score           Kappa
+  MultinomialNB          0.7811          0.6866          0.7419          0.7132          0.5366
+----------------------------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+non-activate    0.79070   0.95327   0.86441       107
+    activate    0.87500   0.56452   0.68627        62
+
+    accuracy                        0.81065       169
+   macro avg    0.83285   0.75889   0.77534       169
+weighted avg    0.82163   0.81065   0.79906       169
+
+Confusion matrix, without normalization
+----------------------------------------------------------------------------------------------------
+      modelName             ACC       Precision          Recall        f1_score           Kappa
+     KNeighbors          0.8107          0.8750          0.5645          0.6863          0.5595
+----------------------------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+non-activate    0.82759   0.89720   0.86099       107
+    activate    0.79245   0.67742   0.73043        62
+
+    accuracy                        0.81657       169
+   macro avg    0.81002   0.78731   0.79571       169
+weighted avg    0.81470   0.81657   0.81309       169
+
+Confusion matrix, without normalization
+----------------------------------------------------------------------------------------------------
+      modelName             ACC       Precision          Recall        f1_score           Kappa
+       Logistic          0.8166          0.7925          0.6774          0.7304          0.5927
+----------------------------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+non-activate    0.76423   0.87850   0.81739       107
+    activate    0.71739   0.53226   0.61111        62
+
+    accuracy                        0.75148       169
+   macro avg    0.74081   0.70538   0.71425       169
+weighted avg    0.74705   0.75148   0.74171       169
+
+Confusion matrix, without normalization
+----------------------------------------------------------------------------------------------------
+      modelName             ACC       Precision          Recall        f1_score           Kappa
+  MultinomialNB          0.7515          0.7174          0.5323          0.6111          0.4343
+----------------------------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+non-activate    0.80180   0.83178   0.81651       107
+    activate    0.68966   0.64516   0.66667        62
+
+    accuracy                        0.76331       169
+   macro avg    0.74573   0.73847   0.74159       169
+weighted avg    0.76066   0.76331   0.76154       169
+
+Confusion matrix, without normalization
+----------------------------------------------------------------------------------------------------
+      modelName             ACC       Precision          Recall        f1_score           Kappa
+       Logistic          0.7633          0.6897          0.6452          0.6667          0.4835
+----------------------------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+non-activate    0.81356   0.89720   0.85333       107
+    activate    0.78431   0.64516   0.70796        62
+
+    accuracy                        0.80473       169
+   macro avg    0.79894   0.77118   0.78065       169
+weighted avg    0.80283   0.80473   0.80000       169
+
+Confusion matrix, without normalization
+----------------------------------------------------------------------------------------------------
+      modelName             ACC       Precision          Recall        f1_score           Kappa
+   RandomForest          0.8047          0.7843          0.6452          0.7080          0.5634
+----------------------------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+non-activate    0.80645   0.93458   0.86580       107
+    activate    0.84444   0.61290   0.71028        62
+
+    accuracy                        0.81657       169
+   macro avg    0.82545   0.77374   0.78804       169
+weighted avg    0.82039   0.81657   0.80875       169
+
+Confusion matrix, without normalization
+----------------------------------------------------------------------------------------------------
+      modelName             ACC       Precision          Recall        f1_score           Kappa
+            SVC          0.8166          0.8444          0.6129          0.7103          0.5810
+----------------------------------------------------------------------------------------------------
